@@ -4,36 +4,17 @@
   
   
   <entry>
-    <title>2020-09-24ppp</title>
+    <title>利用github+git+hexo搭建个人博客</title>
     <link href="/2020/09/24/dddd/"/>
     <url>/2020/09/24/dddd/</url>
     
-    <content type="html"><![CDATA[<p>爬爬爬爬爬爬爬爬；</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h1><h2 id="注册GitHub账号"><a href="#注册GitHub账号" class="headerlink" title="注册GitHub账号"></a>注册GitHub账号</h2><p><a href="www.github.com">官网</a></p><h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><p><a href="https://git-scm.com/download/win">官网</a>  注意下载与操作系统对应版本</p><h2 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h2><p><a href="https://nodejs.org/en/download/">官网</a>  注意下载与操作系统对应版本</p><p> <strong>检测安装是否成功：</strong><br><img src="/photos/1/z.jpg" alt="enter description here"></p><p>打开cmd输入：<br>    node -v<br>    npm  -v<br>如果安装成功会显示相应的版本号</p><h1 id="Hexo安装"><a href="#Hexo安装" class="headerlink" title="Hexo安装"></a>Hexo安装</h1><p>在磁盘中创建一个文件夹例如blog，在该文件夹中鼠标右击点开git base here<br>输入 npm install hexo-cli -g 来安装hexo<br>再输入 npm install hexo-deployer-git –save 把hexo部署到 git page deployer上<br>（因为我已经安装过了所以不演示)<br>在xxx文件夹中创建一个文件夹xxxblog右击打开git base here<br>输入hexo init  把hexo初始化在此文件夹中<br><img src="/photos/1/2020-09-27_165157.jpg" alt="enter description here"><br><img src="/photos/1/66.jpg" alt="enter description here"><br>git 中输入 hexo generate<br>                hexo s<br><img src="/photos/1/2020-09-27_165617.jpg" alt="enter description here"><br>上图表示hexo成功在4000端口运行<br>浏览器中输入 <a href="http://localhost:4000/">http://localhost:4000/</a> 进行浏览<br><img src="/photos/1/2020-09-27_165503.jpg" alt="enter description here"></p><h1 id="在Github部署自己的博客"><a href="#在Github部署自己的博客" class="headerlink" title="在Github部署自己的博客"></a>在Github部署自己的博客</h1><p>在Repository name中填写自己的github账户名+ .github.io(例：zznxxx215.github.io),其他默认点击create repositor创建库<br><img src="/photos/1/2020-09-27_171125.jpg" alt="enter description here"><br>在xxx文件夹下git base here输入<br>ssh-keygan -t rsa -C “”(引号中填写自己的邮箱地址)<br>看到Enter file in which to save the key (/c/Users/you/.ssh/id_rsa):<br>       Enter passphrase (empty for no passphrase):<br>       Enter same passphrase again:按回车<br>之后会显示<br>      Your identification has been saved in /c/Users/you/.ssh/id_rsa.<br>Your public key has been saved in /c/Users/you/.ssh/id_rsa.pub.<br>The key fingerprint is:</p><p>The key’s randomart image is:</p><p>继续输入clip &lt; ~/.ssh/id_rsa.pub（把公钥复制到剪贴板上）</p><p><img src="/photos/1/2020-09-27_172831.jpg" alt="enter description here"><br>title随便填<br>下面天刚刚复制的公钥<br><img src="/photos/1/2020-09-27_173440.jpg" alt="enter description here"></p><p>在git中输入<br>git config –global user.name “此处填你的git用户名（可以填一样的github用户名方便记）”<br> git config –global user.email “此处填你的邮箱”</p><p> 复制ssh地址<br> <img src="/photos/1/2020-09-27_174022.jpg" alt="enter description here"></p><p>打开G:\blog\xxxblog_config.yml按照下图修改(注意冒号后有空格)<br><img src="/photos/1/2020-09-27_174356.jpg" alt="enter description here"></p><p>在blog/xxxblog文件夹下打开git 输入<br>hexo g -d<br>成功后可以在网址https://你的用户名.github.io 访问你的博客</p>]]></content>
     
     
     
     <tags>
       
-      <tag>新建,模板,小书匠</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>2020-09-24未命名文件</title>
-    <link href="/2020/09/24/ssss/"/>
-    <url>/2020/09/24/ssss/</url>
-    
-    <content type="html"><![CDATA[<p>爬爬爬爬爬爬爬爬；</p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>新建,模板,小书匠</tag>
+      <tag>网页</tag>
       
     </tags>
     
