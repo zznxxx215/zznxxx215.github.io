@@ -1,0 +1,129 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url('../bj.jpg') no-repeat ;
+	background-size: cover;
+	font-size: 12px;
+	overflow: auto;
+}
+
+#mainDiv{
+	width: 100%;
+	height: 100%;
+	margin-right: 100px; 
+}
+
+#loveHeart {
+	float: left;
+	width:670px;
+	height:625px;
+}
+
+#garden {
+	width: 100%;
+	height: 100%;
+}
+
+#elapseClock {
+	text-align: right;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#words {
+	font-family: "sans-serif";
+	width: 500px;
+	font-size: 24px;
+	color:#666;
+}
+
+#messages{
+	display: none;
+}
+
+#elapseClock .digit{
+	font-family: "digit";
+	font-size: 36px;
+}
+
+#loveu{
+	padding: 5px;
+	font-size: 22px;
+	margin-top: 80px;
+	margin-right: 120px;
+	text-align: right;
+	display: none;
+}
+
+#loveu .signature{
+	margin-top: 10px;
+	font-size: 20px;
+	font-style: italic;
+}
+
+#clickSound{
+	display:none;
+}
+
+#code {
+	float: left;
+	width: 440px;
+	height: 400px;
+	color: #333;
+	font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
+	font-size: 18px;
+
+}
+
+#code .string{
+	color: :#FF0099;
+	font-size: 20px;
+	font-style: normal;
+	margin-left: 18spx;
+}
+
+#code .keyword{
+	color: #ff0066;
+	margin-left: 18px;
+}
+
+#code .placeholder{
+	margin-left:150px;
+	color: #ff0066;
+	
+}
+
+#code .space{
+	margin-left:75px;
+	color: 	#ff0066;
+	font-weight: bold;
+
+}
+
+#code .comments{
+	color: #FF0099;
+	font-weight: bold;
+	font-size: 25px;
+	margin-left: 140px;
+}
+
+#copyright{
+	margin-top: 10px;
+	text-align: center;
+	width:100%;
+	color:#666;
+}
+
+#errorMsg{
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	position: absolute;
+	top: 100px;
+	left:0px;
+}
+
+#copyright a{
+	color:#666;
+}
